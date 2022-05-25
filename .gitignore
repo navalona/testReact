@@ -1,0 +1,115 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+!**/*.xcodeproj
+!**/*.pbxproj
+!**/*.xcworkspacedata
+!**/*.xcsettings
+!**/*.xcscheme
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+**/.xcode.env.local
+
+# Android Studio
+#
+.project
+.settings
+.classpath
+
+# Watchman
+#
+.watchmanconfig
+
+# Android/IntelliJ
+#
+.idea
+.gradle
+local.properties
+*.iml
+/android/
+
+# Node
+#
+node_modules
+*.log
+.nvm
+/bots/node_modules/
+#package-lock.json
+yarn.lock
+
+# Visual studio
+#
+.vscode
+.vs
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+signing.properties
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+
+#Env file that is created at each npm install
+.env
+
+# update-wording Google drive token
+.google_access_token.json
+
+.bundle
+/android/Gemfile
+/android/Gemfile.lock
+/android/gradle/wrapper/gradle-wrapper.jar
+/android/gradle/wrapper/gradle-wrapper.properties
+/android/gradlew.bat
+/.buckconfig
+/.eslintrc.js
+/.gitattributes
+/.gitlab-ci.yml
+/.prettierrc
+/.watchmanconfig
+/android/.gitignore
+/android/.project
+/android/app/.classpath
+/android/app/.gitignore
+/android/app/.project
+/android/app/src/main/assets
+/android/app/src/main/res
+/android/app/src/main/assets/.gitignore
+/ios/Podfile.lock
+/ios/TestReact.xcodeproj/project.pbxproj
+/yarn.lock
